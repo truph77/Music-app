@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+
+import { useState } from "react";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [songs, setSongs] = useState([
+    {
+      title: "Somethings just like this",
+      artist: "The chainsmokes",
+      img_src: "./images/song-1.png",
+      src: "./music/somethings-just-like-this.mp3",
+    },
+  ]);
+  return <div className="App">Components here!!!</div>;
 }
 
 export default App;
