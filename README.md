@@ -2,7 +2,7 @@ This project writes about an **offline music player**, maybe an online music pla
 
 ### Main structure for this project:
   
-  __public
+  __ public
                                 |    |--- images: contains pictures
                                 |    |--- music: contains songs
                                 |--- src:
