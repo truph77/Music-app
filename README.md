@@ -1,4 +1,4 @@
-This project writes about an offline music player, maybe an online music player in the future.
+This project writes about an **offline music player**, maybe an online music player in the future.
 
 Main structure for this project: --- public
                                 |    |--- images: contains pictures
