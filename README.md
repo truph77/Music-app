@@ -1,6 +1,9 @@
-This project writes about an offline music player, maybe an online music player in the future.
+This project writes about an **offline music player**, maybe an online music player in the future.
 
-Main structure for this project: --- public
+### Main structure for this project:
+  
+  ```
+                                |--- public
                                 |    |--- images: contains pictures
                                 |    |--- music: contains songs
                                 |--- src:
@@ -8,11 +11,11 @@ Main structure for this project: --- public
                                             |--- Player:...
                                             |--- PlayerControl:...
                                             |--- PlayerDetail:...
-                                     |--- App.js: is main file 
+                                     |--- App.js: file main to run app. 
                                      |--- index.css: css for components
                                      |--- index.js:...
                                  ...
-                                 
+   ```
                                  
                                 ░░░░░░░░░░░░▄▄
                                 ░░░░░░░░░░░█░░█
