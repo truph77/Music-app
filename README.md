@@ -2,7 +2,8 @@ This project writes about an **offline music player**, maybe an online music pla
 
 ### Main structure for this project:
   
-  __ public
+  ```
+                                |--- public
                                 |    |--- images: contains pictures
                                 |    |--- music: contains songs
                                 |--- src:
@@ -14,7 +15,7 @@ This project writes about an **offline music player**, maybe an online music pla
                                      |--- index.css: css for components
                                      |--- index.js:...
                                  ...
-                                 
+   ```
                                  
                                 ░░░░░░░░░░░░▄▄
                                 ░░░░░░░░░░░█░░█
