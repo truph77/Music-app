@@ -1,3 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira sans", sans-serif;
+}
+
+body {
+  background: rgb(181, 230, 231);
+}
+
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.c-player {
+  display: block;
+  padding: 35px;
+  background-color: cadetblue;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #72c1da;
+}
+
+.c-player--details .details-image {
+  position: relative;
+  width: fit-content;
+  margin: 50px auto;
+}
+
+.c-player--details .details-image img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 100%;
+  max-width: 250px;
+  background: darkseagreen;
+  box-shadow: 15px 10px 20px darkcyan;
+}
+
+.c-player--details .details-title {
+  font-size: 25px;
+  text-shadow: 15px 10px 5px darkcyan;
+  margin-bottom: 10px;
+}
+
+.c-player--details .details-artist {
+  text-shadow: 2px 2px 4px darkcyan;
+  margin-bottom: 10px;
+}
+
+.c-player--controls {
+  margin: 10px;
+}
+
+.c-player--controls .play-btn {
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 50px;
+  outline: none;
+  background: greenyellow;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px -2px 5px #c3d9a9;
+}
+
+.c-player--controls .skip-btn {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  background: inherit;
 }
