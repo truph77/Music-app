@@ -12,13 +12,13 @@ function App() {
     {
       title: "Memory",
       artist: "The-Chainsmokers-ft-Daya",
-      img_src: "./images/song-2.png",
+      img_src: "./images/song-3.png",
       src: "./music/Dont-let-me-down.mp3",
     },
     {
       title: "Anh không tha thứ",
       artist: "Đình Dũng",
-      img_src: "./images/song-2.png",
+      img_src: "./images/song-1.png",
       src: "./music/AnhKhongThaThu.mp3",
     },
     {
